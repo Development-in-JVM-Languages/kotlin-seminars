@@ -1,6 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.9.21"
-    java
+    kotlin("jvm") version "2.1.10"
 }
 
 dependencies {
@@ -22,12 +21,6 @@ sourceSets.test {
     java.srcDir("test")
 }
 
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(17))
-    }
-}
-
 tasks {
     test {
         maxHeapSize = "6g"
@@ -37,4 +30,8 @@ tasks {
             "--add-exports", "java.base/sun.security.action=ALL-UNNAMED"
         )
     }
+}
+
+kotlin {
+    jvmToolchain(21)
 }

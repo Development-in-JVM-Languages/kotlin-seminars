@@ -1,8 +1,4 @@
-# Intensive Course on Concurrent Programming
-
-## Day 1
-
-### Coarse-grained bank
+## Coarse-grained bank
 
 In [`src/day1/CoarseGrainedBank.kt`](src/day1/CoarseGrainedBank.kt),
 make the sequential bank implementation thread-safe.
@@ -14,7 +10,7 @@ To test your solution, please run:
 * `./gradlew test --tests CoarseGrainedBankTest` on Linux or MacOS
 * `gradlew test --tests CoarseGrainedBankTest` on Windows
 
-### Fine-grained bank
+## Fine-grained bank
 
 In [`src/day1/FineGrainedBank.kt`](src/day1/FineGrainedBank.kt),
 make the sequential bank implementation thread-safe.

@@ -34,5 +34,14 @@
 	<tr>
 		<td align="center">13<sup>th</sup> of March &nbsp;&nbsp;&nbsp;</td>
 		<td>Practice: <a href="seminar-05">Reflection</a> &nbsp;|&nbsp; <a href="seminar-05-solution">[Solution]</a></td>
+		<td align="center" rowspan="2">
+			<a href="https://classroom.github.com/a/usMI2_X2">https://classroom.github.com/a/usMI2_X2</a>
+			<br>
+			Deadline: 7<sup>th</sup> of April 23:59 CET
+		</td>
+	</tr>
+	<tr>
+		<td align="center">20<sup>th</sup> of March &nbsp;&nbsp;&nbsp;</td>
+		<td>Practice: <a href="seminar-06">Bank (Concurrency)</a></td>
 	</tr>
 </table>
