@@ -3,7 +3,6 @@ package org.edu.jvm.languages
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.Executors
 
-
 fun main() {
     val totalTasks = 10
     val executor = Executors.newFixedThreadPool(4)
@@ -31,4 +30,3 @@ fun main() {
     executor.shutdown()
     println("🎉 All tasks completed.")
 }
-

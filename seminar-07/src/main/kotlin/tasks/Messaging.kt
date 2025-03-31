@@ -14,7 +14,7 @@ interface AsyncMessageSender {
     fun stop()
 }
 
-class AsyncMessageSenderImpl(val repeatFactor: Int) : AsyncMessageSender {
+class AsyncMessageSenderImpl(private val repeatFactor: Int) : AsyncMessageSender {
     // TODO initialize the executor
 
     override fun sendMessages(messages: List<Message>) {
@@ -25,7 +25,6 @@ class AsyncMessageSenderImpl(val repeatFactor: Int) : AsyncMessageSender {
         // TODO stop the executor and wait for it
     }
 }
-
 
 fun notifyAboutEnd() {
     println("Completed.")

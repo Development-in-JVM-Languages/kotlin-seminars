@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit
 //    }
 //}
 
-
 fun findSum(num: Int): Int {
     val executor = Executors.newSingleThreadExecutor()
     var sum = 0

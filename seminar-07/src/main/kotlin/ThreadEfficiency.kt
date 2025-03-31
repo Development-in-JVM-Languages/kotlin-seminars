@@ -46,7 +46,7 @@ fun runWithThreads(threadCount: Int, range: IntRange) {
 
 fun main() {
     val range = 1..500_000
-    listOf(1, 2, 4, 6, 8, 10, 12, 16, 32, 64).forEach {
+    listOf(1, 2, 5, 10, 20, 100, 1_000, 10_000).forEach {
         runWithThreads(it, range)
     }
 }

@@ -19,14 +19,12 @@ class MockMailSender : MailSender {
     }
 }
 
-
 fun main() {
     val messageCounts: Int = readln().toInt()
-    val messages: MutableList<String> = mutableListOf<String>()
+    val messages = mutableListOf<String>()
     for (i in 0 until messageCounts) {
         messages.add(readln())
     }
     val sender: MailSender = MockMailSender()
     asyncSend(sender, messages)
 }
-

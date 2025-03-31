@@ -3,7 +3,7 @@ package org.edu.jvm.languages.tasks
 import java.util.concurrent.Executor
 import kotlin.random.Random
 
-class CustomThreadPool(private val numberOfThreads: Int) : Executor{
+class CustomThreadPool(private val numberOfThreads: Int) : Executor {
     override fun execute(command: Runnable) {
         TODO("Not yet implemented")
     }
@@ -12,7 +12,7 @@ class CustomThreadPool(private val numberOfThreads: Int) : Executor{
         TODO("Not yet implemented")
     }
 
-    private inner class Worker(name: String, val shutDownOnEmpty: Boolean = false) : Thread(name) {
+    private inner class Worker(name: String) : Thread(name) {
         private fun exiting() {
             println("[$name] is exiting")
         }
@@ -20,7 +20,6 @@ class CustomThreadPool(private val numberOfThreads: Int) : Executor{
         override fun run() {
             TODO("Not yet implemented")
         }
-
     }
 }
 

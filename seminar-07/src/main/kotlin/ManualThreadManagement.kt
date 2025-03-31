@@ -2,6 +2,16 @@ package org.edu.jvm.languages
 
 import java.util.concurrent.atomic.AtomicInteger
 
+fun downloadSimulated(i: Int): String {
+    Thread.sleep(500L)
+    return "data_$i"
+}
+
+fun processSimulated(data: String): String {
+    Thread.sleep(300L)
+    return data.uppercase()
+}
+
 fun main() {
     val totalTasks = 10
     val threads = mutableListOf<Thread>()
@@ -35,7 +45,6 @@ fun main() {
         thread.start()
     }
 
-
     synchronized(lock) {
         while (completed.get() < totalTasks) {
             try {
@@ -48,14 +57,3 @@ fun main() {
 
     println("✅ All tasks completed.")
 }
-
-fun downloadSimulated(i: Int): String {
-    Thread.sleep(500L)
-    return "data_$i"
-}
-
-fun processSimulated(data: String): String {
-    Thread.sleep(300L)
-    return data.uppercase()
-}
-

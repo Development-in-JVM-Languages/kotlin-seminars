@@ -37,8 +37,6 @@ class BoundedQueue<T>(private val capacity: Int) {
     }
 }
 
-
-
 fun main() {
     val queue = BoundedQueue<Int>(2)
 

@@ -4,7 +4,6 @@ import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
-
 class NamedTask(private val name: String) : Runnable {
     override fun run() {
         println("${Thread.currentThread().name} is running $name")
@@ -37,6 +36,4 @@ fun main() {
     }
     executor.shutdown()
 //    val notExecutedTasks = executor.shutdownNow()
-//
-//
 }
