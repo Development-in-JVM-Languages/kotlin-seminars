@@ -46,6 +46,10 @@
 	</tr>
 	<tr>
 		<td align="center">27<sup>th</sup> of March &nbsp;&nbsp;&nbsp;</td>
-		<td>Practice: <a href="seminar-07">Executors</a></td>
+		<td>Practice: <a href="seminar-07">Executors</a> &nbsp;|&nbsp; <a href="seminar-07-solution">[Solution]</a></td>
+	</tr>
+	<tr>
+		<td align="center">3<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td></td>
 	</tr>
 </table>
