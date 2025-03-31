@@ -16,7 +16,7 @@
 		<td align="center" rowspan="4">
 			<a href="https://classroom.github.com/a/2XrUZaIK">https://classroom.github.com/a/2XrUZaIK</a>
 			<br>
-			Deadline: 9<sup>th</sup> of March 23:59 CET
+			Deadline: March 9<sup>th</sup>, 23:59 CET
 		</td>
 	</tr>
 	<tr>
@@ -28,16 +28,18 @@
 		<td>Practice: <a href="seminar-03">RPG-game<a> &nbsp;|&nbsp; <a href="seminar-03-solution">[Solution]</a></td>
 	</tr>
 	<tr>
-		<td align="center">06<sup>th</sup> of March &nbsp;&nbsp;&nbsp;</td>
+		<td align="center">6<sup>th</sup> of March &nbsp;</td>
 		<td>Practice: <a href="seminar-04">Generics</a> &nbsp;|&nbsp; <a href="seminar-04-solution">[Solution]</a></td>
 	</tr>
 	<tr>
 		<td align="center">13<sup>th</sup> of March &nbsp;&nbsp;&nbsp;</td>
 		<td>Practice: <a href="seminar-05">Reflection</a> &nbsp;|&nbsp; <a href="seminar-05-solution">[Solution]</a></td>
-		<td align="center" rowspan="3">
+		<td align="center" rowspan="4">
 			<a href="https://classroom.github.com/a/usMI2_X2">https://classroom.github.com/a/usMI2_X2</a>
 			<br>
-			Deadline: 7<sup>th</sup> of April 23:59 CET
+			Soft deadline: March 31<sup>st</sup>, 23:59 CEST
+ 			<br>
+ 			Hard deadline: April 7<sup>th</sup>, 23:59 CEST
 		</td>
 	</tr>
 	<tr>
@@ -49,7 +51,7 @@
 		<td>Practice: <a href="seminar-07">Executors</a> &nbsp;|&nbsp; <a href="seminar-07-solution">[Solution]</a></td>
 	</tr>
 	<tr>
-		<td align="center">3<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td align="center">3<sup>rd</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;</td>
 		<td></td>
 	</tr>
 </table>
