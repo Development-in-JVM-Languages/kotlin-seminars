@@ -16,5 +16,5 @@ fun main() {
     thread1.join()
     thread2.join()
 
-    println("Final counter value: $counter") // Should be 200000 but likely won't be
+    println("Final counter value: $counter")  // Should be 200000 but likely won't be
 }

@@ -91,27 +91,27 @@ data class SetIntersection<T: Comparable<T>>(
  */
 fun <T, S> estimateIntersectionSize(treeNode: TreeNode<T>) : Int {
     TODO("Uncomment code bellow and make the file compilable")
-//    val leftNode = treeNode.left ?: return treeNode.value.size
-//    val rightNode = treeNode.right ?: return treeNode.value.size
-//
-//    if (leftNode.value.lowerBound == null || rightNode.value.lowerBound == null) {
-//        return 0
-//    }
-//    if (leftNode.value.upperBound == null || rightNode.value.upperBound == null) {
-//        return 0
-//    }
-//
-//    if (leftNode.value.upperBound!! < rightNode.value.lowerBound!! || leftNode.value.lowerBound!! > rightNode.value.upperBound!!) {
-//        return 0
-//    }
-//    return (leftNode.value.size + rightNode.value.size)/2
+    // val leftNode = treeNode.left ?: return treeNode.value.size
+    // val rightNode = treeNode.right ?: return treeNode.value.size
+
+    // if (leftNode.value.lowerBound == null || rightNode.value.lowerBound == null) {
+    //    return 0
+    // }
+    // if (leftNode.value.upperBound == null || rightNode.value.upperBound == null) {
+    //    return 0
+    // }
+
+    // if (leftNode.value.upperBound!! < rightNode.value.lowerBound!! || leftNode.value.lowerBound!! > rightNode.value.upperBound!!) {
+    //    return 0
+    // }
+    // return (leftNode.value.size + rightNode.value.size)/2
 }
 
 fun <T> printTree(treeNode: TreeNode<T>) {
     TODO("Uncomment code bellow and make the file compilable")
-//    println("${treeNode.value} cost:${treeNode.value.cost}")
-//    treeNode.left?.let { printTree(it) }
-//    treeNode.right?.let { printTree(it) }
+    // println("${treeNode.value} cost:${treeNode.value.cost}")
+    // treeNode.left?.let { printTree(it) }
+    // treeNode.right?.let { printTree(it) }
 }
 
 /**
@@ -149,11 +149,11 @@ fun run() {
         it.right = rightNode
     }
     TODO("Uncomment code bellow and make the file compilable")
-//    val intersectionSize = estimateIntersectionSize(rootNode)
-//    println(intersectionSize)
-//
-//    printTree(rootNode)
-//    printNodes()
+    // val intersectionSize = estimateIntersectionSize(rootNode)
+    // println(intersectionSize)
+
+    // printTree(rootNode)
+    // printNodes()
 }
 
 fun main() {

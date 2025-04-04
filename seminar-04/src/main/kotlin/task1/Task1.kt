@@ -43,7 +43,7 @@ fun printNodes(): String {
     val decisionI = Decision("Do you choose a red or a blue pill?", "Red", "Blue")
     val decisionTree = TreeNode(decisionI)
     TODO("Uncomment code bellow and make the file compilable")
-//    return "${genealogyTree.value.name} ${decisionTree.value.answerLeft}"
+    // return "${genealogyTree.value.name} ${decisionTree.value.answerLeft}"
 }
 
 fun main() {

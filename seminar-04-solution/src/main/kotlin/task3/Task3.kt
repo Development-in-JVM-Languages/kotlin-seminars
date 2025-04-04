@@ -60,7 +60,7 @@ fun <T : Comparable<T>> estimateIntersectionSize(treeNode: TreeNode<SetIntersect
         return 0
     }
 
-//    TODO("Uncomment code bellow and make the file compilable")
+    // TODO("Uncomment code bellow and make the file compilable")
     if (leftNode.value.upperBound < rightNode.value.lowerBound || leftNode.value.lowerBound > rightNode.value.upperBound) {
         return 0
     }

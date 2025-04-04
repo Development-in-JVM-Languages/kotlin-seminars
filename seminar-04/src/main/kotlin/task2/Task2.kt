@@ -40,9 +40,9 @@ data class SetIntersection(val size: Int): CostElement {
  */
 fun <T> calculateTreeCost(root: TreeNode<T>): Double {
     TODO("Uncomment code bellow and make the file compilable")
-//    return root.value.cost +
-//            (root.left?.let { calculateTreeCost(it) } ?: 0.0) +
-//            (root.right?.let { calculateTreeCost(it) } ?: 0.0)
+    // return root.value.cost +
+    //        (root.left?.let { calculateTreeCost(it) } ?: 0.0) +
+    //        (root.right?.let { calculateTreeCost(it) } ?: 0.0)
 }
 
 fun main() {

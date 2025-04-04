@@ -32,19 +32,19 @@ fun Child.e() {}
 
 
 fun main() {
-    println(UserMessages::class.visibility) // and many other properties
+    println(UserMessages::class.visibility)  // and many other properties
 
-    println(Child::class.members.map { it.name }) // [c, d, a, b, equals, hashCode, toString]
-    println(Child::class.functions.map { it.name }) // [d, b, equals, hashCode, toString]
-    println(Child::class.memberProperties.map { it.name }) // [c, a]
+    println(Child::class.members.map { it.name })  // [c, d, a, b, equals, hashCode, toString]
+    println(Child::class.functions.map { it.name })  // [d, b, equals, hashCode, toString]
+    println(Child::class.memberProperties.map { it.name })  // [c, a]
 
     // check declaredMemberProperties
 
     val p = Parent::class
     val c = Child::class
 
-    println(p.superclasses) // [class I1, class kotlin.Any]
-    println(c.superclasses) // [class A, class I2]
-    println(p.supertypes) // [I1, kotlin.Any]
-    println(c.supertypes) // [A, I2]
+    println(p.superclasses)  // [class I1, class kotlin.Any]
+    println(c.superclasses)  // [class A, class I2]
+    println(p.supertypes)  // [I1, kotlin.Any]
+    println(c.supertypes)  // [A, I2]
 }

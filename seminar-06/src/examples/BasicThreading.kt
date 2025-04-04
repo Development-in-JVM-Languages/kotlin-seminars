@@ -5,7 +5,7 @@ fun main() {
         Thread {
             for (j in 1..5) {
                 println("Thread $i - Number: $j")
-                Thread.sleep(500) // Delay for clarity
+                Thread.sleep(500)  // Delay for clarity
             }
         }.start()
     }

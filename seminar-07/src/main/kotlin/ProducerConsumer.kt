@@ -18,7 +18,7 @@ class BoundedQueue<T>(private val capacity: Int) {
 
             queue.add(item)
             println("Produced: $item")
-            notEmpty.signal() // Notify a waiting consumer
+            notEmpty.signal()  // Notify a waiting consumer
         }
     }
 
@@ -31,7 +31,7 @@ class BoundedQueue<T>(private val capacity: Int) {
 
             val item = queue.removeAt(0)
             println("Consumed: $item")
-            notFull.signal() // Notify a waiting producer
+            notFull.signal()  // Notify a waiting producer
             return item
         }
     }

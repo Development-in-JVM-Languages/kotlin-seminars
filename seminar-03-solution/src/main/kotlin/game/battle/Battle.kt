@@ -23,7 +23,7 @@ class Battle(private val character1: GameCharacter, private val character2: Game
 
             // Perform action (attack or use item)
             val action = (1..10).random()
-            if (action <= 7 || !currentAttacker.inventory.hasItems()) { // 70% chance to attack or if no items
+            if (action <= 7 || !currentAttacker.inventory.hasItems()) {  // 70% chance to attack or if no items
                 currentAttacker.attack(currentDefender)
             } else {
                 // Use a random item
@@ -31,7 +31,7 @@ class Battle(private val character1: GameCharacter, private val character2: Game
                 item?.let {
                     it.use(currentAttacker)
                     if (it is Elixir) {
-                        currentAttacker.inventory.removeItem(it) // Only remove Elixir after use
+                        currentAttacker.inventory.removeItem(it)  // Only remove Elixir after use
                     }
                 }
             }

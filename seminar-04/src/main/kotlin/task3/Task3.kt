@@ -61,10 +61,10 @@ fun <T> estimateIntersectionSize(treeNode: TreeNode<SetIntersection<T>>): Int {
     }
 
     TODO("Uncomment code bellow and make the file compilable")
-//    if (leftNode.value.upperBound < rightNode.value.lowerBound || leftNode.value.lowerBound > rightNode.value.upperBound) {
-//        return 0
-//    }
-//    return (leftNode.value.size + rightNode.value.size) / 2
+    // if (leftNode.value.upperBound < rightNode.value.lowerBound || leftNode.value.lowerBound > rightNode.value.upperBound) {
+    //     return 0
+    // }
+    // return (leftNode.value.size + rightNode.value.size) / 2
 }
 
 fun main() {

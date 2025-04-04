@@ -107,7 +107,7 @@ fun <T, S> estimateIntersectionSize(treeNode: TreeNode<T>) : Int where T: Range<
 }
 
 fun <T: CostElement> printTree(treeNode: TreeNode<T>) {
-//    TODO("Uncomment code bellow and make the file compilable")
+    // TODO("Uncomment code bellow and make the file compilable")
     println("${treeNode.value} cost:${treeNode.value.cost}")
     treeNode.left?.let { printTree(it) }
     treeNode.right?.let { printTree(it) }
@@ -148,7 +148,7 @@ fun run() {
         it.right = rightNode
     }
 
-//    TODO("Uncomment code bellow and make the file compilable")
+    // TODO("Uncomment code bellow and make the file compilable")
     val intersectionSize = estimateIntersectionSize(rootNode)
     println(intersectionSize)
 

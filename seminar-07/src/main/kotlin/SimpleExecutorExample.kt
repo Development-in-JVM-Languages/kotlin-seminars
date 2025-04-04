@@ -26,7 +26,7 @@ fun main() {
     }
 
     println("✅ Waiting for tasks to finish...")
-    latch.await() // Wait for all tasks to complete
+    latch.await()  // Wait for all tasks to complete
     executor.shutdown()
     println("🎉 All tasks completed.")
 }
