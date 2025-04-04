@@ -1,8 +1,7 @@
 package org.edu.jvm.languages.tasks
 
-import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 
 suspend fun connectToServer() {
     println("Connecting to server...")

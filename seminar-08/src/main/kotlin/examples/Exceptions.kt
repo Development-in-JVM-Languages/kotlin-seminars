@@ -10,21 +10,21 @@ suspend fun taskThatMightFail(index: Int): String {
     return "Result of task $index"
 }
 
-//fun main() = runBlocking {
-//    val deferredTasks = (1..3).map { index ->
-//        async { taskThatMightFail(index) }
-//    }
+// fun main() = runBlocking {
+//     val deferredTasks = (1..3).map { index ->
+//         async { taskThatMightFail(index) }
+//     }
 //
-//    try {
-//        val results = deferredTasks.awaitAll()
-//        println("Results: $results")
-//    } catch (e: Exception) {
-//        println("Caught an exception: ${e.message}")
-//    } finally {
-//        // Cancel all remaining tasks if needed (optional)
-//        deferredTasks.forEach { it.cancel() }
-//    }
-//}
+//     try {
+//         val results = deferredTasks.awaitAll()
+//         println("Results: $results")
+//     } catch (e: Exception) {
+//         println("Caught an exception: ${e.message}")
+//     } finally {
+//         // Cancel all remaining tasks if needed (optional)
+//         deferredTasks.forEach { it.cancel() }
+//     }
+// }
 
 fun main() {
     val num = listOf(1, 2, 3, 4, 5)

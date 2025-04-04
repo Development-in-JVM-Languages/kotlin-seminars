@@ -52,6 +52,10 @@
 	</tr>
 	<tr>
 		<td align="center">3<sup>rd</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>Practice: <a href="seminar-08">Sequences</a></td>
+	</tr>
+	<tr>
+		<td align="center">10<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;</td>
 		<td></td>
 	</tr>
 </table>
