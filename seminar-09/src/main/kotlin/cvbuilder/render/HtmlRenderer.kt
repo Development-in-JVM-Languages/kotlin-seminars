@@ -97,4 +97,3 @@ class HtmlRenderer(private val curriculum: CV) : CVRenderer {
         }
     }
 }
-

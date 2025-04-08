@@ -56,6 +56,6 @@
 	</tr>
 	<tr>
 		<td align="center">10<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;</td>
-		<td></td>
+		<td>Practice: <a href="seminar-09">DSL</a></td>
 	</tr>
 </table>
