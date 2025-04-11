@@ -1,6 +1,6 @@
 package cvbuilder.dsl
 
-import cvbuilder.models.*
+import cvbuilder.models.CV
 
 @CVDsl
 class CVBuilder {

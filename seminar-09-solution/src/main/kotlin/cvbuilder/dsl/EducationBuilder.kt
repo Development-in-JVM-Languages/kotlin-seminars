@@ -19,14 +19,14 @@ class EducationBuilder {
         return FromBuilder()
     }
 
-    inner class FromBuilder() {
+    inner class FromBuilder {
         infix fun from(year: String): ToBuilder {
             this@EducationBuilder.currentFrom = year
             return ToBuilder()
         }
     }
 
-    inner class ToBuilder() {
+    inner class ToBuilder {
         infix fun to(year: String) {
             val institution = Institution(currentDegree, currentName, currentLocation, currentFrom, year)
             institutions.add(institution)

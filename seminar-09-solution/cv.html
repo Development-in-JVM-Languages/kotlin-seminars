@@ -1,20 +1,7 @@
-package cvbuilder.render
-
-object CvStyles {
-    object ClassNames {
-        const val CONTAINER = "cv-container"
-        const val SECTION = "section"
-        const val CONTACT = "contact"
-        const val EDUCATION = "education"
-        const val INSTITUTION = "institution"
-        const val PROJECTS = "projects"
-        const val PROJECT = "project"
-        const val SKILLS = "skills"
-        const val SKILLS_LIST = "skills-list"
-        const val SKILL_ITEM = "skill-item"
-    }
-
-    const val STYLES = """
+<html>
+  <head>
+    <title>Max Mustermann</title>
+    <style>
         :root {
             --primary-color: #2c3e50;
             --secondary-color: #34495e;
@@ -42,14 +29,14 @@ object CvStyles {
             font-size: 0.85rem;
         }
 
-        .${ClassNames.CONTAINER} {
+        .cv-container {
             max-width: 210mm;
             margin: 0 auto;
             padding: 1.5rem;
             background: var(--background-color);
         }
 
-        .${ClassNames.CONTACT} {
+        .contact {
             text-align: center;
             margin-bottom: var(--section-spacing);
             padding: 1rem;
@@ -57,7 +44,7 @@ object CvStyles {
             border-radius: var(--border-radius);
         }
 
-        .${ClassNames.CONTACT} h1 {
+        .contact h1 {
             font-family: 'Playfair Display', serif;
             font-size: 1.8rem;
             margin-bottom: 0.5rem;
@@ -65,19 +52,19 @@ object CvStyles {
             color: black;
         }
 
-        .${ClassNames.CONTACT} p {
+        .contact p {
             margin: 0.25rem 0;
             color: black;
             font-size: 0.9rem;
         }
 
-        .${ClassNames.CONTACT} a {
+        .contact a {
             color: black;
             text-decoration: none;
             border-bottom: 1px dotted rgba(255, 255, 255, 0.7);
         }
 
-        .${ClassNames.SECTION} {
+        .section {
             margin-bottom: var(--section-spacing);
             padding: 1rem;
             background: #f8f9fa;
@@ -93,47 +80,47 @@ object CvStyles {
             border-bottom: 2px solid var(--accent-color);
         }
 
-        .${ClassNames.INSTITUTION} {
+        .institution {
             margin-bottom: 0.75rem;
             padding: 0.5rem;
             background: white;
             border-radius: var(--border-radius);
         }
 
-        .${ClassNames.INSTITUTION} h3 {
+        .institution h3 {
             color: var(--secondary-color);
             font-size: 1rem;
             margin-bottom: 0.25rem;
             font-weight: 600;
         }
 
-        .${ClassNames.PROJECT} {
+        .project {
             margin-bottom: 0.75rem;
             padding: 0.5rem;
             background: white;
             border-radius: var(--border-radius);
         }
 
-        .${ClassNames.PROJECT} h3 {
+        .project h3 {
             color: var(--secondary-color);
             font-size: 1rem;
             margin-bottom: 0.25rem;
             font-weight: 600;
         }
 
-        .${ClassNames.PROJECT} p {
+        .project p {
             margin-bottom: 0.25rem;
             color: var(--text-color);
         }
 
-        .${ClassNames.SKILLS_LIST} {
+        .skills-list {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
             margin-top: 0.5rem;
         }
 
-        .${ClassNames.SKILL_ITEM} {
+        .skill-item {
             background: var(--accent-color);
             color: white;
             padding: 0.25rem 0.75rem;
@@ -172,35 +159,85 @@ object CvStyles {
                 print-color-adjust: exact !important;
             }
 
-            .${ClassNames.CONTAINER} {
+            .cv-container {
                 margin: 0;
                 padding: 0.75rem;
                 width: 100%;
             }
 
-            .${ClassNames.SECTION} {
+            .section {
                 page-break-inside: avoid;
                 margin-bottom: 0.75rem;
             }
 
-            .${ClassNames.CONTACT} {
+            .contact {
                 background: var(--primary-color) !important;
             }
 
-            .${ClassNames.CONTACT} h1,
-            .${ClassNames.CONTACT} p,
-            .${ClassNames.CONTACT} a {
+            .contact h1,
+            .contact p,
+            .contact a {
                 color: black !important;
             }
 
-            .${ClassNames.SKILL_ITEM} {
+            .skill-item {
                 background: var(--accent-color) !important;
                 color: black !important;
             }
 
-            .${ClassNames.PROJECT}, .${ClassNames.INSTITUTION} {
+            .project, .institution {
                 border: 1px solid var(--border-color);
             }
         }
-    """
-}
+    </style>
+  </head>
+  <body>
+    <div class="cv-container">
+      <div class="section contact">
+        <h1>Max Mustermann</h1>
+        <p>Email: <a href="mailto:mmax@cub.uni">mmax@cub.uni</a></p>
+        <p>Phone: +49 123213125</p>
+      </div>
+      <div class="section education">
+        <h2>Education</h2>
+        <div class="institution">
+          <h3>Constructor University Bremen</h3>
+          <p>BSc Software, Data and Technology (2023 - 2026)</p>
+        </div>
+        <div class="institution">
+          <h3>Hermann-Böse-Gymnasium</h3>
+          <p>High School Diploma (2019 - 2025)</p>
+        </div>
+      </div>
+      <div class="section projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>CV Builder DSL</h3>
+          <p>A Kotlin DSL for building CV/Resume in a type-safe way</p>
+          <p><a href="https://github.com/username/cv-builder">Project Link</a></p>
+          <p>Technologies:</p>
+          <ul>
+            <li>Kotlin</li>
+            <li>DSL</li>
+          </ul>
+          <p>Year: 2024</p>
+        </div>
+        <div class="project">
+          <h3>Machine Learning Pipeline</h3>
+          <p>Automated ML pipeline for data processing</p>
+          <p>Technologies:</p>
+          <ul>
+            <li>Python</li>
+            <li>TensorFlow</li>
+            <li>Docker</li>
+          </ul>
+          <p>Year: 2023</p>
+        </div>
+      </div>
+      <div class="section skills">
+        <h2>Skills</h2>
+        <div class="skills-list"><span class="skill-item">Kotlin</span><span class="skill-item">Python</span><span class="skill-item">ML</span></div>
+      </div>
+    </div>
+  </body>
+</html>

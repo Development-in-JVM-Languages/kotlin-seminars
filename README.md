@@ -55,7 +55,7 @@
 		<td>Practice: <a href="seminar-08">Coroutines</a> &nbsp;|&nbsp; <a href="seminar-08-solution">[Solution]</a></td>
 	</tr>
 	<tr>
-		<td align="center">10<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;</td>
-		<td>Practice: <a href="seminar-09">DSL</a></td>
+		<td align="center">10<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>Practice: <a href="seminar-09">DSL</a> &nbsp;|&nbsp; <a href="seminar-09-solution">[Solution]</a></td>
 	</tr>
 </table>

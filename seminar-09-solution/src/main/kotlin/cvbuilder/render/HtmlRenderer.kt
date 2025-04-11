@@ -89,6 +89,7 @@ class HtmlRenderer(private val curriculum: CV) : CVRenderer {
             }
         }
     }
+
     @Suppress("unused")
     companion object {
         fun CV.toHtml(): String = HtmlRenderer(this).render()
@@ -97,4 +98,3 @@ class HtmlRenderer(private val curriculum: CV) : CVRenderer {
         }
     }
 }
-
