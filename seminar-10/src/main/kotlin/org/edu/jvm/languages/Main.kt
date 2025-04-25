@@ -4,7 +4,6 @@ import org.edu.jvm.languages.app.WeatherApp
 import org.edu.jvm.languages.services.CityCoordinatesService
 import org.edu.jvm.languages.services.CityWeatherService
 
-
 fun main() {
     val app = WeatherApp()
 

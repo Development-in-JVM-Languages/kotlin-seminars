@@ -87,7 +87,5 @@ enum class City(
             val localDateTime = now.toLocalDateTime(timeZone)
             return "Time in $cityName is ${localDateTime.hour}:${String.format("%02d", localDateTime.minute)}:${String.format("%02d", localDateTime.second)}"
         }
-
     }
-
 }

@@ -31,5 +31,4 @@ class OpenWeatherApiClient {
     fun close() {
         client.close()
     }
-
 }

@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "2.1.20"
-    kotlin("plugin.serialization") version "2.1.20"
+    kotlin("jvm") version "2.1.10"
+    kotlin("plugin.serialization") version "2.1.10"
 }
 
 group = "org.edu.jvm.languages"
@@ -30,13 +30,12 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+kotlin {
+    jvmToolchain(21)
+}
 
 tasks.register<JavaExec>("run") {
     mainClass.set("MainKt")
     classpath = sourceSets["main"].runtimeClasspath
     environment("VARIABLE_NAME", "variable_value")
-}
-
-kotlin {
-    jvmToolchain(21)
 }

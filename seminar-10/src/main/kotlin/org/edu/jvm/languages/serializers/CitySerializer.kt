@@ -17,7 +17,6 @@ import org.edu.jvm.languages.models.City
 object CitySerializer : KSerializer<City> {
     override val descriptor: SerialDescriptor = TODO()
 
-
     override fun serialize(encoder: Encoder, value: City) = TODO()
 
     override fun deserialize(decoder: Decoder): City = TODO()

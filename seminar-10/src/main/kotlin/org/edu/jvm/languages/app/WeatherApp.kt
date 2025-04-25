@@ -21,5 +21,4 @@ class WeatherApp {
     companion object {
         val prettyJson: Json = TODO()
     }
-
 }

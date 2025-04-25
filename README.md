@@ -56,6 +56,14 @@
 	</tr>
 	<tr>
 		<td align="center">10<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-		<td>Practice: <a href="seminar-09">DSL</a> &nbsp;|&nbsp; <a href="seminar-09-solution">[Solution]</a></td>
+		<td>Practice: <a href="seminar-09">CV Builder DSL</a> &nbsp;|&nbsp; <a href="seminar-09-solution">[Solution]</a></td>
 	</tr>
+	<tr>
+		<td align="center">24<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>Practice: <a href="seminar-10">Weather Map App</a> &nbsp;|&nbsp; <a href="seminar-10-solution">[Solution]</a></td>
+	</tr>
+	<!-- <tr>
+		<td align="center">1<sup>st</sup> of May &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>Practice: <a href="seminar-11"></a></td>
+	</tr> -->
 </table>
