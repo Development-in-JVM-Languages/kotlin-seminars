@@ -57,13 +57,23 @@
 	<tr>
 		<td align="center">10<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 		<td>Practice: <a href="seminar-09">CV Builder DSL</a> &nbsp;|&nbsp; <a href="seminar-09-solution">[Solution]</a></td>
+		<td align="center" rowspan="2"></td>
 	</tr>
 	<tr>
 		<td align="center">24<sup>th</sup> of April &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 		<td>Practice: <a href="seminar-10">Weather Map App</a> &nbsp;|&nbsp; <a href="seminar-10-solution">[Solution]</a></td>
 	</tr>
-	<!-- <tr>
-		<td align="center">1<sup>st</sup> of May &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-		<td>Practice: <a href="seminar-11"></a></td>
-	</tr> -->
+	<tr>
+		<td align="center">8<sup>st</sup> of May &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>Testing, <code>JUnit</code></td>
+		<td align="center" rowspan="2">
+			<a href="https://classroom.github.com/a/3FknJewn">https://classroom.github.com/a/3FknJewn</a>
+			<br>
+			Deadline: May 26<sup>th</sup>, 23:59 CEST
+		</td>
+	</tr>
+	<tr>
+		<td align="center">15<sup>st</sup> of May &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><code>Ktor</code></td>
+	</tr>
 </table>
