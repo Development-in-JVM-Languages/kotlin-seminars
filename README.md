@@ -15,8 +15,6 @@
 		</td>
 		<td align="center" rowspan="4">
 			<a href="https://classroom.github.com/a/2XrUZaIK">https://classroom.github.com/a/2XrUZaIK</a>
-			<br>
-			Deadline: March 9<sup>th</sup>, 23:59 CET
 		</td>
 	</tr>
 	<tr>
@@ -36,10 +34,6 @@
 		<td>Practice: <a href="seminar-05">Reflection</a> &nbsp;|&nbsp; <a href="seminar-05-solution">[Solution]</a></td>
 		<td align="center" rowspan="4">
 			<a href="https://classroom.github.com/a/usMI2_X2">https://classroom.github.com/a/usMI2_X2</a>
-			<br>
-			Soft deadline: March 31<sup>st</sup>, 23:59 CEST
- 			<br>
- 			Hard deadline: April 7<sup>th</sup>, 23:59 CEST
 		</td>
 	</tr>
 	<tr>
@@ -68,8 +62,6 @@
 		<td>Testing, <code>JUnit</code></td>
 		<td align="center" rowspan="2">
 			<a href="https://classroom.github.com/a/3FknJewn">https://classroom.github.com/a/3FknJewn</a>
-			<br>
-			Deadline: May 26<sup>th</sup>, 23:59 CEST
 		</td>
 	</tr>
 	<tr>
